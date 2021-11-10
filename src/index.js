@@ -43,7 +43,7 @@ const makeList = () => {
     // Add listItem to the listElement
     listElement.appendChild(listItem);
   }
-}
+};
 // Usage
 makeList();
 const divRight = document.createElement('div');
