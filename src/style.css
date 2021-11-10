@@ -1,28 +1,34 @@
-section{
-    font-family: arial;
-    font-size: 24px;
-    margin: auto;
-    padding: 10px;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: #2196F3;
+body{
+  margin: auto;
   padding: 10px;
 }
-.list-names{
-border: 4px solid black;
+.listContainer{
+  float: left;
+  width: 35%;
+  margin-left: 5%;
 }
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
+.formContainer{
+  float: left;
+  margin-left: 5%;
+  width: 40%;
 }
-.btn{
+.inputName{
+  margin-bottom: 5%;
+}
+.subbtn{
   float: right;
+  margin-top: 5%;
 }
 ul {
     list-style-type: none;
+    border: 4px solid black;
+    padding: 0;
 }
 form{
     width: fit-content;
 }
+li { 
+  background: white;
+  padding-left: 1%;
+}
+li:nth-child(odd) { background: rgb(207, 203, 203); }
