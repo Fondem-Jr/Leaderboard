@@ -1,6 +1,6 @@
 import './style.css';
 
-function makeList() {
+const makeList = () => {
   const listData = [{
     Name: 'John',
     Score: 100,
