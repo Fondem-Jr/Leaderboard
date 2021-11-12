@@ -15,8 +15,6 @@ This is built using ES6 and Webpack!
 - Visual Studio Code
 - Git & Github
 ## Live Demo
-
-[Live Demo Link](https://fondem-jr.github.io/Leaderboard/dist/)
 ## Getting Started
 
 👤 **Fondem Junior**
