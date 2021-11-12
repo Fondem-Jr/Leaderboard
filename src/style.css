@@ -4,6 +4,7 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+
 h1,
 .title-container,
 .form {
@@ -16,14 +17,16 @@ h1,
   padding: 1rem;
   outline-offset: 0.5rem;
 }
+
 .list,
 .submit-button,
-.refresh-button{
+.refresh-button {
   border-radius: 5px 5px 0 0;
   box-shadow: -1px 1px 5px -1px #dbd7d7bf;
   -webkit-box-shadow: -1px 1px 5px -1px #dbd7d7bf;
   -moz-box-shadow: -1px 1px 5px -1px #dbd7d7bf;
 }
+
 body {
   background-color: hsla(0, 100%, 11%, 0.767);
   width: 80%;
@@ -119,8 +122,8 @@ button {
   display: inline-block;
   background-color: #7b38d8;
   border-radius: 10px;
-  border: 4px double #cccccc;
-  color: #eeeeee;
+  border: 4px double #ccc;
+  color: #eee;
   text-align: center;
   font-size: 25px;
   padding: 20px;
