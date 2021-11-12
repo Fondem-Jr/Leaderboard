@@ -35,7 +35,7 @@ input {
   flex-direction: column;
   width: 50%;
   margin: 40px;
-  height: 60vh; 
+  height: 60vh;
 }
 
 .title-container {
@@ -47,6 +47,7 @@ input {
   margin-left: auto;
   padding: 5px 15px;
 }
+
 .list {
   width: 100%;
 }
@@ -65,7 +66,6 @@ input {
   background: #9b9ea0;
   color: #fff;
 }
-
 
 .add-title,
 .recent-title {
