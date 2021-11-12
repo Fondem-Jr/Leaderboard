@@ -1,6 +1,7 @@
 import './style.css';
+import leaderBoard from './fetch.js';
 
-const leaderData = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games//scores/';
+const leaderData = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/2522casjsbfo/scores/';
 const displayGame = document.querySelector('.list');
 const form = document.querySelector('.form');
 const userName = document.querySelector('.input-name');
@@ -52,4 +53,6 @@ const refreshScores = () => {
 
 refreshBtn.addEventListener('click', refreshScores);
 
-window.onload = refreshScores;
+leaderBoard();
+
+// window.onload = refreshScores;
